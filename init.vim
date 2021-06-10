@@ -11,12 +11,16 @@ Plug 'nbouscal/vim-stylish-haskell'
 Plug 'elixir-editors/vim-elixir'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'vim-test/vim-test'
+Plug 'kassio/neoterm'
 call plug#end()
+
 
 " Programming
 
 syntax on
 filetype plugin indent on
+let test#strategy = "neoterm"
 
 " Color Schemes
 set termguicolors
