@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 Plug 'maralla/completor.vim'
 Plug 'neomake/neomake'
 Plug 'nbouscal/vim-stylish-haskell'
@@ -15,6 +16,7 @@ Plug 'vim-test/vim-test'
 Plug 'kassio/neoterm'
 call plug#end()
 
+let mapleader = "\<Space>"
 
 " Programming
 
